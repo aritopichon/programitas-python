@@ -4,7 +4,7 @@ print("-----------------------------")
 import random  # Importamos random para generar un número aleatorio
 
 numero_secreto = random.randint(1, 10)  # Genera un número entero entre 1 y 10
-intentos = 0  # Contador de intentos del usuario
+intentos = 0  # Contador de intentos del usuario.
 
 while True:  # Bucle infinito hasta que se adivine el número o se rompa con break
     intento = input("Adivina el número entre 1 y 10: ")  # Entrada del usuario (por defecto cadena)
